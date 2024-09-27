@@ -1,6 +1,39 @@
 # .NET 8 Clean Web API Template
 
-This repository provides a .NET 8 Web API template.
+This repository provides a .NET 8 Web API template. 
+Folder Structure;
+
+```bash
+src
+├── Application
+│   ├── Interfaces
+│   ├── Services
+│   ├── Exceptions
+│   └── Behaviors
+│
+├── Domain
+│   ├── Entities
+│   ├── ValueObjects
+│   ├── Enums
+│   └── Events
+│
+├── Infrastructure
+│   ├── Persistence
+│   ├── Identity
+│   ├── Services
+│   └── Configurations
+│
+├── Presentation (or WebAPI)
+│   ├── Controllers
+│   ├── Filters
+│   ├── Models
+│   └── Middleware
+│
+└── Tests
+    ├── UnitTests
+    ├── IntegrationTests
+    └── FunctionalTests
+```
 
 ## Installation Instructions
 
