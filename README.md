@@ -1,4 +1,4 @@
-# .NET 8 Clean Web API Template
+# .NET 8 Clean Architecture Web API Template
 
 This repository provides a .NET 8 Web API template. 
 Folder Structure;
